@@ -1,0 +1,735 @@
+{
+  "CAMERA": "ORTHO",
+  "KEYFRAMES": {
+    "camera": {
+      "groups": []
+    },
+    "enabled": false,
+    "layers": {
+      "Basin_NW_1628418a_b452_41ca_9109_77e2ac94523a": {
+        "enabled": true,
+        "groups": []
+      },
+      "Basin_NW_4835a8bb_386c_45b2_9a12_72b5774789a5": {
+        "enabled": true,
+        "groups": []
+      },
+      "Basin_SE_22dcf656_6e90_4b80_bf89_7bea49416101": {
+        "enabled": true,
+        "groups": []
+      },
+      "Basin_SE_6c4e076b_1037_4c7c_a621_4d68142da0e2": {
+        "enabled": true,
+        "groups": []
+      },
+      "Basin_SS_0c1f6f17_d13b_4678_bb81_e9648d1ed1d5": {
+        "enabled": true,
+        "groups": []
+      },
+      "Basin_SS_9bc461e5_5763_4be7_8203_c8834ef981fb": {
+        "enabled": true,
+        "groups": []
+      },
+      "Basin_SW_2bed5ca4_c185_4343_bd90_f5638b5b8c70": {
+        "enabled": true,
+        "groups": []
+      },
+      "Basin_SW_cba3968d_fc9b_4090_9ed5_2d7633664403": {
+        "enabled": true,
+        "groups": []
+      },
+      "DEM_Dzaleka_2ae0e10e_2be8_48d9_ab37_dac843b60d1a": {
+        "enabled": true,
+        "groups": []
+      },
+      "DEM_Dzaleka_a4fc0b2e_f6ec_487a_9677_80c04f0b4cd7": {
+        "enabled": true,
+        "groups": []
+      },
+      "DEM_Filled_1ec96439_4460_4cc0_90f2_a20d7b2a12dc": {
+        "enabled": true,
+        "groups": []
+      },
+      "DEM_Flow_Direction_74b38847_33b5_42e6_9cfc_d7e2bce84fb9": {
+        "enabled": true,
+        "groups": []
+      },
+      "Drain_Direction_2e10f9ed_f8d3_44d9_ade3_efc84d892ccf": {
+        "enabled": true,
+        "groups": []
+      },
+      "Flow_Accumulation_865153d5_69a3_4eba_ad1d_d23c9e94b6cf": {
+        "enabled": true,
+        "groups": []
+      },
+      "Stream_Segments_7d6667f7_19eb_4e4a_88a1_7818d2c505cd": {
+        "enabled": true,
+        "groups": []
+      },
+      "Stream_Segments_babfeb83_99bf_46db_be4a_a0e5ae4e3fec": {
+        "enabled": true,
+        "groups": []
+      },
+      "basin_5dc0e3b8_a382_4ede_a50d_225b30bfe970": {
+        "enabled": true,
+        "groups": []
+      },
+      "fp:dce169bd": {
+        "enabled": true,
+        "groups": []
+      }
+    },
+    "repeat": false,
+    "startOnLoad": false
+  },
+  "LAYERS": [
+    {
+      "geomType": 0,
+      "layerId": "Stream_Segments_babfeb83_99bf_46db_be4a_a0e5ae4e3fec",
+      "name": "Stream_Segments",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": false,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "comboBox_ClipLayer": "Basin_SW_cba3968d_fc9b_4090_9ed5_2d7633664403",
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "60dc9402",
+            "name": "map (canvas)",
+            "properties": {},
+            "type": 0
+          }
+        ],
+        "mtlId": "60dc9402",
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3
+      },
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "Flow_Accumulation_865153d5_69a3_4eba_ad1d_d23c9e94b6cf",
+      "name": "Flow_Accumulation",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": false,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "comboBox_ClipLayer": "Basin_SW_cba3968d_fc9b_4090_9ed5_2d7633664403",
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "21e30d23",
+            "name": "map (canvas)",
+            "properties": {},
+            "type": 0
+          }
+        ],
+        "mtlId": "21e30d23",
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3
+      },
+      "visible": false
+    },
+    {
+      "geomType": 2,
+      "layerId": "Stream_Segments_7d6667f7_19eb_4e4a_88a1_7818d2c505cd",
+      "name": "Stream_Segments",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "Basin_SW_cba3968d_fc9b_4090_9ed5_2d7633664403",
+      "name": "Basin_SW",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "Basin_SS_9bc461e5_5763_4be7_8203_c8834ef981fb",
+      "name": "Basin_SS",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "Basin_SE_6c4e076b_1037_4c7c_a621_4d68142da0e2",
+      "name": "Basin_SE",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "Basin_NW_4835a8bb_386c_45b2_9a12_72b5774789a5",
+      "name": "Basin_NW",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "Drain_Direction_2e10f9ed_f8d3_44d9_ade3_efc84d892ccf",
+      "name": "Drain_Direction",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": false,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "comboBox_ClipLayer": "Basin_SW_cba3968d_fc9b_4090_9ed5_2d7633664403",
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "a618de30",
+            "name": "map (canvas)",
+            "properties": {},
+            "type": 0
+          }
+        ],
+        "mtlId": "a618de30",
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3
+      },
+      "visible": true
+    },
+    {
+      "geomType": 0,
+      "layerId": "Basin_SW_2bed5ca4_c185_4343_bd90_f5638b5b8c70",
+      "name": "Basin_SW",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": false,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "comboBox_ClipLayer": "Basin_SW_cba3968d_fc9b_4090_9ed5_2d7633664403",
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "5368a0ab",
+            "name": "map (canvas)",
+            "properties": {},
+            "type": 0
+          }
+        ],
+        "mtlId": "5368a0ab",
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3
+      },
+      "visible": true
+    },
+    {
+      "geomType": 0,
+      "layerId": "Basin_SS_0c1f6f17_d13b_4678_bb81_e9648d1ed1d5",
+      "name": "Basin_SS",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": false,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "comboBox_ClipLayer": "Basin_SW_cba3968d_fc9b_4090_9ed5_2d7633664403",
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "a72c3f51",
+            "name": "map (canvas)",
+            "properties": {},
+            "type": 0
+          }
+        ],
+        "mtlId": "a72c3f51",
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3
+      },
+      "visible": true
+    },
+    {
+      "geomType": 0,
+      "layerId": "Basin_SE_22dcf656_6e90_4b80_bf89_7bea49416101",
+      "name": "Basin_SE",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": false,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "comboBox_ClipLayer": "Basin_SW_cba3968d_fc9b_4090_9ed5_2d7633664403",
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "d55e6255",
+            "name": "map (canvas)",
+            "properties": {},
+            "type": 0
+          }
+        ],
+        "mtlId": "d55e6255",
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3
+      },
+      "visible": true
+    },
+    {
+      "geomType": 0,
+      "layerId": "Basin_NW_1628418a_b452_41ca_9109_77e2ac94523a",
+      "name": "Basin_NW",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": false,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "comboBox_ClipLayer": "Basin_SW_cba3968d_fc9b_4090_9ed5_2d7633664403",
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "5231ca4e",
+            "name": "map (canvas)",
+            "properties": {},
+            "type": 0
+          }
+        ],
+        "mtlId": "5231ca4e",
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3
+      },
+      "visible": true
+    },
+    {
+      "geomType": 0,
+      "layerId": "basin_5dc0e3b8_a382_4ede_a50d_225b30bfe970",
+      "name": "Unique label for each watershed basin",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "DEM_Flow_Direction_74b38847_33b5_42e6_9cfc_d7e2bce84fb9",
+      "name": "DEM_Flow_Direction",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": false,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "comboBox_ClipLayer": "Basin_SW_cba3968d_fc9b_4090_9ed5_2d7633664403",
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "cc41fb2b",
+            "name": "map (canvas)",
+            "properties": {},
+            "type": 0
+          }
+        ],
+        "mtlId": "cc41fb2b",
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3
+      },
+      "visible": true
+    },
+    {
+      "geomType": 0,
+      "layerId": "DEM_Filled_1ec96439_4460_4cc0_90f2_a20d7b2a12dc",
+      "name": "DEM_Filled",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": false,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "comboBox_ClipLayer": "Basin_SW_cba3968d_fc9b_4090_9ed5_2d7633664403",
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "ad725db1",
+            "name": "map (canvas)",
+            "properties": {},
+            "type": 0
+          }
+        ],
+        "mtlId": "ad725db1",
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3
+      },
+      "visible": true
+    },
+    {
+      "geomType": 0,
+      "layerId": "DEM_Dzaleka_a4fc0b2e_f6ec_487a_9677_80c04f0b4cd7",
+      "name": "DEM_Dzaleka copy",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": false,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "comboBox_ClipLayer": "Basin_SW_cba3968d_fc9b_4090_9ed5_2d7633664403",
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "7dc71b17",
+            "name": "map (canvas)",
+            "properties": {},
+            "type": 0
+          }
+        ],
+        "mtlId": "7dc71b17",
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3
+      },
+      "visible": true
+    },
+    {
+      "geomType": 0,
+      "layerId": "DEM_Dzaleka_2ae0e10e_2be8_48d9_ab37_dac843b60d1a",
+      "name": "DEM_Dzaleka",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": false,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "comboBox_ClipLayer": "Basin_SW_cba3968d_fc9b_4090_9ed5_2d7633664403",
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "8e091e0a",
+            "name": "map (canvas)",
+            "properties": {},
+            "type": 0
+          }
+        ],
+        "mtlId": "8e091e0a",
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3
+      },
+      "visible": true
+    },
+    {
+      "geomType": 0,
+      "layerId": "fp:dce169bd",
+      "name": "Flat Plane",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "lineEdit_Altitude": "0",
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "704c7fef",
+            "name": "map (canvas)",
+            "properties": {},
+            "type": 0
+          }
+        ],
+        "mtlId": "704c7fef",
+        "spinBox_Size": 3
+      },
+      "visible": true
+    }
+  ],
+  "OPT": {
+    "localMode": true
+  },
+  "OutputFilename": "C:/ADDA_GIS_Labs/Day_9/lab_9\\lab_9_3D_View.html",
+  "SCENE": {
+    "checkBox_FixAspectRatio": true,
+    "checkBox_Outline": false,
+    "colorButton_Color": [
+      0,
+      0,
+      0,
+      255
+    ],
+    "colorButton_Fog": [
+      255,
+      255,
+      255,
+      255
+    ],
+    "comboBox_MaterialType": 0,
+    "comboBox_xyShift": true,
+    "groupBox_Fog": false,
+    "lineEdit_CenterX": "594847.0216548634",
+    "lineEdit_CenterY": "8489345.500001367",
+    "lineEdit_Height": "26359.577696142485",
+    "lineEdit_Rotation": "0",
+    "lineEdit_Width": "26359.577696142485",
+    "lineEdit_zFactor": "5",
+    "slider_Fog": 41
+  },
+  "Template": "3DViewer.html",
+  "Title": "lab_9",
+  "Version": 20701
+}
